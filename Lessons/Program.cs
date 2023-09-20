@@ -1,0 +1,3 @@
+﻿
+Console.WriteLine("Hello, Magomed!");
+
