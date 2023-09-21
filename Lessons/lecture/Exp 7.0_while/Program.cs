@@ -18,7 +18,7 @@ int x = xa;
 int y = ya;
 int count = 0;
 
-while(count < 2000)
+while(count < 1000)
 {
     int what = new Random().Next(0,3);
     if(what == 0){
