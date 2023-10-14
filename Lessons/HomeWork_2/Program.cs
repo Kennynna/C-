@@ -19,7 +19,7 @@ if (num >= 100){
     }
     num=num % 10; 
     Console.WriteLine($"  третяя цифра  {num} ");
-} else if (num < -100){
+} else if (num < -100){ //условие для возведение отрицательного числа в положительное
     num = num * -1;
      while (num >=1000){
         num=num / 10;
@@ -37,17 +37,13 @@ Console.Write("Введите число ");
 int day = int.Parse(Console.ReadLine());    
 if (day == 1){
     Console.WriteLine($"нет");
-} else if(day == 2){
+} else if(day == 2 
+        || day == 3
+        || day == 4
+        || day == 5){
     Console.WriteLine($"нет");
-} else if(day == 3){
-    Console.WriteLine($"нет");
-} else if(day == 4){
-    Console.WriteLine($"нет");
-} else if(day == 5){
-    Console.WriteLine($"нет");
-} else if(day == 6){
-    Console.WriteLine($"да");
-} else if(day == 7){
+} else if(day == 6
+        || day == 7){
     Console.WriteLine($"да");
 } else {
     Console.WriteLine($"Введите корректный день");

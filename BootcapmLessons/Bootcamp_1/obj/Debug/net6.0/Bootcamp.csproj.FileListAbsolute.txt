@@ -1,0 +1,15 @@
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\bin\Debug\net6.0\Bootcamp.exe
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\bin\Debug\net6.0\Bootcamp.deps.json
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\bin\Debug\net6.0\Bootcamp.runtimeconfig.json
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\bin\Debug\net6.0\Bootcamp.dll
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\bin\Debug\net6.0\Bootcamp.pdb
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\Bootcamp.csproj.AssemblyReference.cache
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\Bootcamp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\Bootcamp.AssemblyInfoInputs.cache
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\Bootcamp.AssemblyInfo.cs
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\Bootcamp.csproj.CoreCompileInputs.cache
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\Bootcamp.dll
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\refint\Bootcamp.dll
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\Bootcamp.pdb
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\Bootcamp.genruntimeconfig.cache
+C:\Users\Fan\Desktop\GB\C#\BootcapmLessons\Bootcamp_1\obj\Debug\net6.0\ref\Bootcamp.dll
