@@ -1,81 +1,38 @@
-﻿
-// Console.Write($"Введите число А: ");
-// int a = int.Parse(Console.ReadLine()); // Parse преобразование в число
-// int Sum(int limit)
-// {
-//     int sum = 0;
-//     for(int i = 0; i <= limit; i++)
-//     {
-//         sum += i;
+﻿using System;
 
-//     }
-//     return sum;
-// }
-// Console.WriteLine($"Cумма чисел от 1 до {a}  равна {Sum(a)}");
-
-// void Mass(int col)
-// {
-// int[] arry = new int[col];
-
-// for (int i = 0; i < arry.Length; i++)
-// {
-//     arry[i] = new Random().Next(0,10);
-//     Console.Write($"{arry[i]} ");
-// }
-
-// }
-// Console.WriteLine("Ввести длину массива ");
-// int n = Convert.ToInt32(Console.ReadLine());
-// Mass(n);
-
-// void Mass(int col)
-// {
-// int[] arry = new int[col];
-
-// for (int i = 0; i < arry.Length; i++)
-// {
-//     arry[i] = new Random().Next(0,1);
-//     Console.Write($"{arry[i]} ");
-// }
-
-// }
-// Console.WriteLine("Ввести длину массива ");
-// int n = Convert.ToInt32(Console.ReadLine());
-// Mass(n);
-using System;
-
-class Program
+public class Program
 {
-    static void Main()
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Введите количество чисел: ");
-        int n = int.Parse(Console.ReadLine()); // Считываем количество чисел
+        // Задача 41
+        Console.Write("Введите количество чисел: ");
+        int M = int.Parse(Console.ReadLine());
+        int count = 0;
 
-        int count = 0; // Переменная для счетчика
-
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < M; i++)
         {
-            Console.WriteLine("Введите число: ");
-            int number = int.Parse(Console.ReadLine()); // Считываем число
+            Console.Write("Введите число: ");
+            int number = int.Parse(Console.ReadLine());
 
-            if (number > 0) // Если число больше 0, увеличиваем счетчик
+            if (number > 0)
             {
                 count++;
-            }
+            }    
         }
 
-        Console.WriteLine("Количество чисел, больших 0: " + count);
+        Console.WriteLine($"Количество чисел, больших 0: {count}");
 
-        Console.WriteLine("Введите значение переменной b1: ");
+        // Задача 43
+        Console.Write("Введите b1: ");
         double b1 = double.Parse(Console.ReadLine());
 
-        Console.WriteLine("Введите значение переменной k1: ");
+        Console.Write("Введите k1: ");
         double k1 = double.Parse(Console.ReadLine());
 
-        Console.WriteLine("Введите значение переменной b2: ");
+        Console.Write("Введите b2: ");
         double b2 = double.Parse(Console.ReadLine());
 
-        Console.WriteLine("Введите значение переменной k2: ");
+        Console.Write("Введите k2: ");
         double k2 = double.Parse(Console.ReadLine());
 
         double x = (b2 - b1) / (k1 - k2);
